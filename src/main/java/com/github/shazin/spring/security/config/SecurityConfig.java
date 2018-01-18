@@ -24,7 +24,6 @@ public class SecurityConfig {
                 .build();
     }
 
-
     @Bean
     public UserDetailsRepository userDetailsRepository() {
         UserDetails userDetails = User.withUsername("shazin").password("sha123").roles("USER").build();
